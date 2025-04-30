@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe Schedule, type: :model do
     describe 'relationships' do
       it { should belong_to(:user) }
